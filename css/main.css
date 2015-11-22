@@ -1,0 +1,351 @@
+body {
+    background: url("../img/bg.png");
+    width: 100%;
+    height: 1505px;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+    height: inherit;
+}
+
+.hat {
+    font-family: GeorgiaRegular;
+    font-size: 12px;
+    height: 135px;
+    color: #1c1f0d;
+    margin-top: 4px;
+}
+
+.hat .content {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 0 auto;
+}
+
+
+
+.time {
+    width: 184px;
+    float: left;
+    margin: 0;
+    opacity: 0.5;
+    text-shadow: 1px 1px 2px rgba(255,247,233,0.75);
+    display: inline-block;
+
+}
+
+.time p {
+    margin: 0;
+}
+
+.hat-link {
+    float: right;
+    opacity: 0.5;
+    text-shadow: 1px 1px 2px rgba(255,247,233,0.75);
+    display: inline-block;
+
+}
+
+.hat-link a {
+    text-decoration: none;
+    color: #1c1f0d;
+    padding: 0 10px;
+    border-right: 1px solid #1c1f0d;
+}
+
+.bor-none {
+    border-right: none;
+}
+
+#logo-text {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1c1f0d;
+    opacity: 0.5;
+    text-shadow: 1px 1px 2px rgba(255,247,233,0.75);
+    margin-top: 95px;
+    width: 186px;
+    position: absolute;
+    letter-spacing: 2px;
+}
+
+#logo-text p {
+    margin: 0;
+}
+
+#logo-link {
+    line-height: 57px;
+    color: #57583c;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "Trajan Pro";
+    font-weight: bold;
+    background-color: #fefbf4;
+    border-radius: 4px;
+    width: 252px;
+    text-decoration: none;
+    padding-left: 20px;
+    display: inline-block;
+    float: right;
+    margin: 32px 0 0 709px;
+    box-shadow: inset 0 -1px 3px rgba(1,1,1,0.6);
+}
+
+.nav {
+    width: 100%;
+    background-image: url("../img/bg-nav.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.nav a {
+    font-family: "Trajan Pro";
+    font-size: 14px;
+    color: #575a2e;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 26px 0;
+    padding: 0 22px;
+    display: inline-block;
+    border-right: 1px solid #e0e0e0;
+    line-height: 14px;
+}
+
+.nav a:hover {
+    color: #333423;
+}
+
+.sel {
+    background: url("../img/main1.png");
+    height: 641px;
+    width: inherit;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    padding: 10px 0 10px 10px;
+}
+
+.video {
+    padding: 10px;
+}
+
+.video-text {
+    width: 353px;
+    height: auto;
+    float: right;
+    margin: 12px;
+    line-height: 1.5em;
+}
+
+.video-text-title {
+    font-family: "Trajan Pro";
+    font-size: 20px;
+    font-weight: bold;
+    color: #58593c;
+    line-height: 2;
+}
+
+.video-tt {
+    font-family: GeorgiaRegular;
+    font-size: 12px;
+    color: #6d6d6d;
+}
+
+.view {
+    text-transform: uppercase;
+    font-family: "Trajan Pro";
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 37px;
+    width: 142px;
+    border-radius: 4px;
+    background-color: #fffefd;
+    color: #4e4f36;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.video-text a {
+    float: right;
+    box-shadow: inset 0 -1px 3px rgba(1,1,1,0.6);
+    margin-top: 15px;
+}
+
+.selider .content {
+    background-image: url("../img/slider-Nav2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 368px;
+}
+
+.cont-sid {
+    height: 563px;
+}
+
+.Content {
+    width: 687px;
+    float: left;
+    display: inline-block;
+    height: inherit;
+    line-height: 2;
+}
+
+
+.con-title {
+    font-family: "Trajan Pro";
+    font-size: 20px;
+    color: #58593c;
+    margin: 0;
+}
+
+.con-qu {
+    color: #97956c;
+    font-family: "Trajan Pro";
+    font-size: 12px;
+    margin: 0;
+}
+
+.con-text {
+    font-family: GeorgiaRegular;
+    font-size: 12px;
+    color: #6d6d6d;
+    margin: 0;
+}
+
+.Content a {color: #575a2e;}
+
+UL {
+    list-style: square;
+    color: #575a2e;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.column2 {
+    margin-top: 37px;
+    width: inherit;
+}
+
+.column2 ul {
+    margin: 10px 0 0 0;
+    line-height: 12px;
+}
+
+.gallery {
+    background-image: url("../img/bg-gallery.png");
+    background-repeat: no-repeat;
+    width: inherit;
+    height: 134px;
+    line-height: 134px;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+}
+
+.gallery a {
+    vertical-align: middle;
+}
+
+.gallery img {
+    vertical-align: middle;
+    padding: 6px;
+}
+
+.sidebar {
+    width: 242px;
+    float: right;
+    display: inline-block;
+    height: inherit;
+}
+
+.sidebar .con-title {
+    text-align: left;
+    line-height: 40px;
+}
+
+.sidebar ul {
+    color: #6d6d6d;
+    padding: 0;
+    line-height: 2;
+    font-size: 11px;
+    font-family: GeorgiaRegular;
+    margin-top: 20px;
+}
+
+.sidebar img {
+    vertical-align: bottom;
+    margin-top: 30px;
+}
+
+.footer {
+    background-image: url("../img/bg-footer.png");
+    width: 100%;
+    height: 314px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.footer .content {
+    height: 169px;
+    margin-top: 55px;
+}
+
+.footer .con-text {line-height: 2;}
+
+.location {
+    width: 181px;
+    height: inherit;
+    margin-right: 17px;
+    display: inline-block;
+    float: left;
+}
+
+.maps {
+    background-image: url("../img/maps.jpg");
+    width: 265px;
+    margin-right: 75px;
+    height: inherit;
+    display: inline-block;
+    float: left;
+}
+
+.church {
+    height: inherit;
+    width: 169px;
+    margin-right: 65px;
+    display: inline-block;
+    line-height: 1.5;
+    float: left;
+}
+
+.church ul {color: #828464;
+}
+
+.connected {
+    width: 180px;
+    height: inherit;
+    display: inline-block;
+    margin: 0;
+    float: right;
+}
+
+.connected li {
+    line-height: 1.5;
+}
+
+.connected ul #f {list-style-image: url("../img/facebook.png");}
+.connected ul #t {list-style-image: url("../img/twitter.png");}
+.connected ul #y {list-style-image: url("../img/yt.png");}
+.connected ul #l {list-style-image: url("../img/linkedin.png");}
+.connected ul #s {list-style-image: url("../img/skype.png");}
+
+.footer .time {
+    width: inherit;
+    margin-top: 60px;
+}
